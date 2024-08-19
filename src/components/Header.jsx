@@ -18,7 +18,6 @@ function Header() {
 
   return (
     <header>
-     
       <div className="header-auth bg-neutral p-2">
         <div className="max-w-7xl mx-auto flex justify-between">
           {token.token ? (
@@ -44,11 +43,9 @@ function Header() {
         </div>
       </div>
 
-      
-      <div className="bg-base-200">
+      <div className="bg-[#f0f6ff]">
         <nav className="navbar max-w-7xl mx-auto">
           <div className="navbar-start">
-            
             <div className="dropdown">
               <button tabIndex={0} className="btn btn-ghost lg:hidden">
                 <svg
@@ -92,7 +89,6 @@ function Header() {
             </Link>
           </div>
 
-          
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1 gap-2">
               <li>
